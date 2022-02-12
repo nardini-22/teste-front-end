@@ -1,0 +1,28 @@
+:root {
+  --black: #111111;
+  --orange: #f08910;
+  --white: #fff;
+}
+
+footer {
+  background: var(--black);
+  color: var(--white);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-title {
+  color: var(--orange);
+  margin: 0 5px 0 0;
+}
