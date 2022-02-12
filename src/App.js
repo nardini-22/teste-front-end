@@ -1,11 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar/navbar";
+import Body from "./components/Body/body";
 import Footer from "./components/Footer/footer";
+import Navbar from "./components/Navbar/navbar";
 
 export default function App() {
   return (
     <>
       <Navbar />
+      <Body />
       <Footer />
     </>
   );
