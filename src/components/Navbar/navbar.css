@@ -81,7 +81,6 @@
   cursor: pointer;
 }
 
-
 @media (max-width: 768px) {
   #options {
     display: none;
@@ -108,5 +107,4 @@
   #menu-icon {
     display: block;
   }
-  
 }
