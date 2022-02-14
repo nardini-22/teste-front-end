@@ -5,6 +5,9 @@ import ReportsImg from "../../assets/imgs/icone-relatorios.png";
 import UsersImg from "../../assets/imgs/icone-usuarios.png";
 
 export default function Body() {
+  const handleMessage = (message) => {
+    window.alert(message)
+  }
   return (
     <div id="body-container">
       <div id="content-container">
@@ -14,18 +17,18 @@ export default function Body() {
           </span>
         </header>
         <div id="buttons-container">
-          <div className="buttons">
+          <button onClick={() => handleMessage("Botão Meus Eventos clicado!")}className="buttons">
             <img className="icons" alt="events" src={EventsImg} />
             <h3 className="buttons-title">Meus Eventos</h3>
-          </div>
-          <div className="buttons">
+          </button>
+          <button onClick={() => handleMessage("Botão Usuários clicado!")}className="buttons">
             <img className="icons" alt="users" src={UsersImg} />
             <h3 className="buttons-title">Usuários</h3>
-          </div>
-          <div className="buttons">
+          </button>
+          <button onClick={() => handleMessage("Botão Relatórios clicado!")}className="buttons">
             <img className="icons" alt="reports" src={ReportsImg} />
             <h3 className="buttons-title">Relatórios</h3>
-          </div>
+          </button>
         </div>
       </div>
     </div>
