@@ -1,9 +1,14 @@
-function App() {
+import "./App.css";
+import Body from "./components/Body/body";
+import Footer from "./components/Footer/footer";
+import Navbar from "./components/Navbar/navbar";
+
+export default function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Navbar />
+      <Body />
+      <Footer />
+    </>
   );
 }
-
-export default App;

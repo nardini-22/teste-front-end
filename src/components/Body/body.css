@@ -1,0 +1,94 @@
+:root {
+  --white: #fff;
+}
+
+#body-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+#content-container {
+  background: var(--white);
+  position: absolute;
+  top: 125px;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#title {
+  display: flex;
+}
+
+#title p {
+  font-weight: bold;
+  margin: 0 0 0 5px;
+}
+
+#buttons-container {
+  display: flex;
+  margin: 10px;
+}
+
+#buttons-container :active {
+  background: rgba(241, 241, 241, 1);
+  background: linear-gradient(
+    148deg,
+    rgba(241, 241, 241, 1) 0% rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.buttons {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    148deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(241, 241, 241, 1) 100%
+  );
+  margin: 0 20px 0 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgba(241, 241, 241, 1);
+}
+
+.buttons-title {
+  margin: 20px 0 0 0;
+}
+
+@media (max-width: 1280px) {
+  #buttons-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .buttons {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+  }
+
+  .buttons-title {
+    margin: 5px 0 0 5px;
+  }
+
+  #title {
+    display: block;
+  }
+  #title p {
+    font-weight: bold;
+    margin: 0;
+  }
+}
