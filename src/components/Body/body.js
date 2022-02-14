@@ -10,20 +10,20 @@ export default function Body() {
       <div id="content-container">
         <header>
           <span id="title">
-            Olá <p>Igor Gonçalves</p>, selecione uma das opções abaixo:
+            Olá <p>Igor Gonçalves,</p> selecione uma das opções abaixo:
           </span>
         </header>
         <div id="buttons-container">
           <div className="buttons">
-            <img alt="events" src={EventsImg} />
+            <img className="icons" alt="events" src={EventsImg} />
             <h3 className="buttons-title">Meus Eventos</h3>
           </div>
           <div className="buttons">
-            <img alt="users" src={UsersImg} />
+            <img className="icons" alt="users" src={UsersImg} />
             <h3 className="buttons-title">Usuários</h3>
           </div>
           <div className="buttons">
-            <img alt="reports" src={ReportsImg} />
+            <img className="icons" alt="reports" src={ReportsImg} />
             <h3 className="buttons-title">Relatórios</h3>
           </div>
         </div>
