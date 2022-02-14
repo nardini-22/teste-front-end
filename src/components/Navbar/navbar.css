@@ -75,9 +75,12 @@
   align-items: flex-end;
 }
 
-a {
+#logout {
   color: var(--orange);
+  text-decoration: underline;
+  cursor: pointer;
 }
+
 
 @media (max-width: 768px) {
   #options {
@@ -105,4 +108,5 @@ a {
   #menu-icon {
     display: block;
   }
+  
 }

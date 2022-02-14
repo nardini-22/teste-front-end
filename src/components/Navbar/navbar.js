@@ -30,7 +30,7 @@ export default function Navbar() {
             <img alt="user-img" id="user-img" src={UserImg} />
             <div id="user-option">
               <p>Igor Gonçalves</p>
-              <a href="#">Desconectar</a>
+              <p id="logout">Desconectar</p>
             </div>
           </div>
         </div>
