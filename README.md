@@ -2,4 +2,4 @@
 
 ## Demo
 
-Link: https://front-end-teste.herokuapp.com/
+Link: https://nardinis-library.herokuapp.com/
